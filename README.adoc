@@ -1,0 +1,23 @@
+:toc:
+:toc-placement!:
+
+= basic checks for OpenBikeSensor parts
+
+toc::[]
+
+== ESP32 DEVKIT V1 + AJ-SR04M / JSN-SR04T-v3.0
+
+A basic test to verify the function of the ultrasonic sensors.
+
+- wire the ESP32 and the ultrasonic sensor board as shown in the schematic
+
+image::esp32+aj-sr04m.png[]
+
+- connect the ultrasonic sensor to the sensor board
+- load the source (link:esp32+aj-sr04m.ino[]) into Arduino IDE
+- connect the ESP32 with a USB cable to the computer
+- upload the sketch to the ESP32
+- the measured distance is printed in the serial monitor window of the Arduino IDE
+
+'''
+
