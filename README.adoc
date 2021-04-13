@@ -1,9 +1,12 @@
 :toc:
 :toc-levels: 4
-:toc-title: Basic checks for OpenBikeSensor parts
+:toc-title:
 
 :sectnums:
 :toc-placement!:
+
+
+= Basic checks for https://www.openbikesensor.org[OpenBikeSensor] parts
 
 toc::[]
 
